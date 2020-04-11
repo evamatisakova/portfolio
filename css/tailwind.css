@@ -7613,6 +7613,25 @@ video {
 
 .h-screen-70{
   height: 70vh;
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-height: 20rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .h-screen-70 {
+    min-height: 30rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .h-screen-70 {
+    min-height: 45rem;
+  }
 }
 
 .pb-parent{
